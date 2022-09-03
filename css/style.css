@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* header start */
+.header{
+    height: 75px;
+    width: 100%;
+    background: #e41040;
+    position: fixed;
+    top: 0;
+}
+.h-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+.h-right{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: right;
+}
+.h-right button{
+    font-size: 50px;
+    margin-top: 6px;
+    border: unset;
+    background: unset;
+    color: white;
+    margin-right: 12px;
+}
+.logo{
+    background: url('../images/logo.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+/* header end */
+/* manu start */
+.nav{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 75px;
+    display: none;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    background-color: #e41040;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+}
+.nav a i{
+    float: right;
+}
+
+
+/* menu end */
+/* header section  */
+.top-section{
+    background: url(../images/home-bg.jpg);
+    width: 100%;
+    height: 590px;
+background-size: cover;
+background-position: center center;
+text-align: center;
+padding-top:100px;
+margin-top: 75px;
+}
+.top-section h1{
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.top-section button{
+    color: white;
+    border: 1px solid white;
+    background-color: #e41040;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+}
+/* header section  */
+.our-offers h2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.offers-box{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.offers-box img{
+    width: 65%;
+    
+}
+.offers-box h5{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 20px;
+}
+.offers-box .in{
+font-size: 12px;
+margin: 6px auto;
+
+}
+.offers-box .price{
+    color: #e41040;
+    font-weight: bold;
+}
+
+/* order section */
+.order-section{
+    text-align: center;
+    min-height: 500px;
+    background: url(../images/order-section.jpg);
+    background-position: top center;
+    background-size: cover;
+    padding: 30px;
+}
+.small-p{
+color: white;
+font-size: 15px;
+text-shadow: 1px 1px 1px black;
+}
+.large-p{
+    color: white;
+font-size: 25px;
+font-weight: bold;
+}
+.form{
+    display: block;
+    margin: 15px auto;
+}
+.form input, .form textarea{
+    margin: 5px;
+    border: 5px solid #e41040;
+    width: 80%;
+    min-height: 30px;
+}
+.button{
+    color: white;
+    border: 1px solid white;
+    background-color: #e41040;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+}
+.footer{
+    background: #e41040;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+.footer-icons{
+    background: #e41040;
+    text-align: center;
+    padding: 5px;
+}
+.footer-icons a{
+    color: white;
+    padding: 0 20px;
+}
