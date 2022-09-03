@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Restourant </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header start -->
+    <div class="header">
+        <div class="h-left">
+            <div class="logo">
+
+            </div>
+        </div>
+        <div class="h-right">
+            <button onclick="toggle()">
+                <i class="fa-solid fa-burger"></i>
+            </button>
+        </div>
+        <!-- header end -->
+        <!-- nav start -->
+        <div id="nav" class="nav">
+            <a href="">
+                <span>Начало</span>
+                <i class="fas fa-caret-right"></i>
+            </a>
+            <a href="">
+                <span>Меню</span>
+                <i class="fas fa-caret-right"></i>
+            </a>
+            <a href="">
+                <span>Резервации</span>
+                <i class="fas fa-caret-right"></i>
+            </a>
+            <a href="">
+                <span>За нас</span>
+                <i class="fas fa-caret-right"></i>
+            </a>
+            <a href="">
+                <span>Контакти</span>
+                <i class="fas fa-caret-right"></i>
+            </a>
+        </div>
+        <!-- nav end -->
+
+
+    </div>
+    <!-- header end -->
+    <!-- header section -->
+    <div class="top-section">
+        <h1>Ресторант Дизайн</h1>
+        <button> поръчай</button>
+    </div>
+    <!-- header section -->
+    <div class="our-offers">
+        <h2>Някой от нашите най-добри пици</h2>
+        <div class="offers-box">
+            <img src="/images/pizza-1.jpg" alt="">
+            <h5>Пица Алекс</h5>
+            <div class="in">моцарела, чушка , домат <br>маслини</div>
+            <div class="price">12.00 лв.</div>
+        </div>
+        <div class="offers-box">
+            <img src="/images/pizza-1.jpg" alt="">
+            <h5>Пица Алекс</h5>
+            <div class="in">моцарела, чушка , домат <br>маслини</div>
+            <div class="price">12.00 лв.</div>
+        </div>
+        <div class="offers-box">
+            <img src="/images/pizza-1.jpg" alt="">
+            <h5>Пица Алекс</h5>
+            <div class="in">моцарела, чушка , домат <br>маслини</div>
+            <div class="price">12.00 лв.</div>
+        </div>
+        <div class="offers-box">
+            <img src="/images/pizza-1.jpg" alt="">
+            <h5>Пица Алекс</h5>
+            <div class="in">моцарела, чушка , домат <br>маслини</div>
+            <div class="price">12.00 лв.</div>
+        </div>
+    </div>
+    <!-- order section -->
+    <div class="order-section">
+        <p class="small-p">Поръчай за вкъщи</p>
+        <p class="large-p">08787 878 778</p>
+        <p class="small-p">ИЛИ</p>
+        <form action="" class="form">
+            <input type="text" placeholder="Име">
+            <input type="text" placeholder="Телефон">
+            <input type="text" placeholder="Адрес">
+            <textarea name="" id="" cols="22" rows="6" placeholder="Поръчка"></textarea>
+        </form>
+        <button class="button"> Поръчай</button>
+    </div>
+<!-- oerder section end -->
+<!-- footer start -->
+<div class="footer small-p">
+    <p>Адрес:</p>
+    <p>гр. София</p>
+    <p> кв. Младост 262 </p>
+    <p>Работно време:</p>
+    <p>Понеделник до Неделя</p>
+    <p>10:00 до 23:00</p>
+</div>
+<div class="footer-icons">
+<a href=""><i class="fa-brands fa-facebook-f"></i></a>
+<a href=""><i class="fab fa-instagram"></i></a>
+</div>
+<!-- footer end -->
+    <script>
+        function toggle() {
+            let nav = document.getElementById('nav');
+            if (nav.style.display == 'block') {
+                nav.style.display = 'none';
+            } else {
+                nav.style.display = 'block';
+
+            }
+        }
+    </script>
+</body>
+
+</html>
